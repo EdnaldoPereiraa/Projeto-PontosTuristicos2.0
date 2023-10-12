@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/baclground\ 2.jpg);
+}
+
+header {
+    background-color: #0d0d0ed2;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+footer {
+    background-color: #0d0d0ed2;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.ponto-turistico {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    flex-basis: calc(33.33% - 20px);
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.ponto-turistico img {
+    max-width: 100%;
+}
+
+.ponto-turistico h2 {
+    margin-top: 10px;
+    color: #007bff;
+    font-size: 20px;
+}
+
+.ponto-turistico p {
+    color: #555;
+}
